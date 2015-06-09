@@ -48,7 +48,7 @@ type Options struct {
 }
 
 // CorsHandler for setting headers on every managed request
-func CorsHandler(options Options) http.Handler {
+func CorsHandler(options Options, next http.Handler) http.Handler {
 	// Setting the default origins in case not specified
 	if options.AllowOrigins == nil {
 		options.AllowOrigins = defaultAllowOrigins
@@ -89,7 +89,10 @@ func CorsHandler(options Options) http.Handler {
 		when requesting server when AngularJS Resources in order to avoid OPTIONS Request error
 		*/
 		if r.Method == OptionsMethod {
-			w.WriteHeader(http.StatusNoContent)
+			w.WriteHeader(204)
+			w.Write([]byte("OK"))
 		}
+
+		next.ServeHTTP(w, r)
 	})
 }
