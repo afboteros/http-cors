@@ -64,25 +64,25 @@ func CorsHandler(options Options) http.Handler {
 	// Request managing func
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		if len(options.AllowOrigins) > 0 {
-			w.Header.Set("Access-Control-Allow-Origin", strings.Join(options.AllowOrigins, " "))
+			w.Header().Set("Access-Control-Allow-Origin", strings.Join(options.AllowOrigins, " "))
 		} else {
-			w.Header.Set("Access-Control-Allow-Origin", "*")
+			w.Header().Set("Access-Control-Allow-Origin", "*")
 		}
 
 		if len(options.AllowHeaders) > 0 {
-			w.Header.Set("Access-Control-Allow-Headers", strings.Join(options.AllowHeaders, ","))
+			w.Header().Set("Access-Control-Allow-Headers", strings.Join(options.AllowHeaders, ","))
 		} else {
-			w.Header.Set("Access-Control-Allow-Headers", strings.Join(defaultAllowHeaders, ","))
+			w.Header().Set("Access-Control-Allow-Headers", strings.Join(defaultAllowHeaders, ","))
 		}
 
 		if len(options.AllowMethods) > 0 {
-			w.Header.Set("Access-Control-Allow-Methods", strings.Join(options.AllowMethods, ","))
+			w.Header().Set("Access-Control-Allow-Methods", strings.Join(options.AllowMethods, ","))
 		} else {
-			w.Header.Set("Access-Control-Allow-Methods", strings.Join(defaultAllowMethods, ","))
+			w.Header().Set("Access-Control-Allow-Methods", strings.Join(defaultAllowMethods, ","))
 		}
 
 		if options.AllowCredentials {
-			w.Header.Set("Access-Control-Allow-Credentials", strconv.FormatBool(defaultAllowCredentials))
+			w.Header().Set("Access-Control-Allow-Credentials", strconv.FormatBool(defaultAllowCredentials))
 		}
 
 		/** OPTIONS Method returns no content status, this is important for example
