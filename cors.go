@@ -89,8 +89,7 @@ func CorsHandler(options Options, next http.Handler) http.Handler {
 		when requesting server when AngularJS Resources in order to avoid OPTIONS Request error
 		*/
 		if r.Method == OptionsMethod {
-			w.WriteHeader(204)
-			w.Write([]byte("OK"))
+			w.WriteHeader(http.StatusNoContent)
 		}
 
 		next.ServeHTTP(w, r)
