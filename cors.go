@@ -62,7 +62,7 @@ func CorsHandler(options Options) http.Handler {
 		options.AllowMethods = defaultAllowMethods
 	}
 	// Request managing func
-	return func(w http.ResponseWriter, r *http.Request) {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		if len(options.AllowOrigins) > 0 {
 			w.Header.Set("Access-Control-Allow-Origin", strings.Join(options.AllowOrigins, " "))
 		} else {
@@ -91,5 +91,5 @@ func CorsHandler(options Options) http.Handler {
 		if r.Method == OptionsMethod {
 			w.WriteHeader(http.StatusNoContent)
 		}
-	}
+	})
 }
