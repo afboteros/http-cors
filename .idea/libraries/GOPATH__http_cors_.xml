@@ -1,0 +1,73 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;http-cors&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/refactor/eg/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/types/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-less/node_modules/maxmin/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/vet/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-less/node_modules/less/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-less/node_modules/maxmin/node_modules/chalk/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../denisenkom/go-mssqldb/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/cover/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt/node_modules/js-yaml/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../mattn/go-isatty/.git" />
+      <root url="file://$PROJECT_DIR$/../../rs/cors/.git" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/.git" />
+      <root url="file://$PROJECT_DIR$/../../magiconair/properties/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/loader/testdata" />
+      <root url="file://$PROJECT_DIR$/../../mattn/go-sqlite3/.git" />
+      <root url="file://$PROJECT_DIR$/../../manucorporat/sse/.git" />
+      <root url="file://$PROJECT_DIR$/../../mattn/go-sqlite3/_example" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in/bluesuncorp/validator.v5/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/pointer/testdata" />
+      <root url="file://$PROJECT_DIR$/../../mattn/go-colorable/.git" />
+      <root url="file://$PROJECT_DIR$/.idea" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/.idea" />
+      <root url="file://$PROJECT_DIR$/../../mattn/go-colorable/_example" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-less/node_modules/less/projectFilesBackup/.idea" />
+      <root url="file://$PROJECT_DIR$/../../gin-gonic/gin/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/ssa/testdata" />
+      <root url="file://$PROJECT_DIR$/../gin-cors/.git" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-less/node_modules/less/.idea" />
+      <root url="file://$PROJECT_DIR$/../../dustin/go-humanize/.git" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-less/node_modules/less/.grunt" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-less/node_modules/chalk/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/html/testdata" />
+      <root url="file://$PROJECT_DIR$/.git" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-watch/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/stringer/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/text/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/callgraph/cha/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/callgraph/rta/testdata" />
+      <root url="file://$PROJECT_DIR$/../../gorilla/context/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/gcimporter/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/callgraph/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/oracle/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/ssa/interp/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/html/charset/testdata" />
+      <root url="file://$PROJECT_DIR$/../../gorilla/sessions/.git" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-less/node_modules/less/node_modules/request/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/gccgoimporter/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/fiximports/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/text/encoding/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/ssa/ssautil/testdata" />
+      <root url="file://$PROJECT_DIR$/../../gorilla/securecookie/.git" />
+      <root url="file://$PROJECT_DIR$/../../../coltejer.com/acciones/web/node_modules/grunt-contrib-less/node_modules/.bin" />
+      <root url="file://$PROJECT_DIR$/../../kisielk/sqlstruct/.git" />
+      <root url="file://$PROJECT_DIR$/../../unrolled/render/.git" />
+    </excluded>
+  </library>
+</component>
